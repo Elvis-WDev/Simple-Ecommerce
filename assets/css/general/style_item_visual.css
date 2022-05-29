@@ -1,0 +1,140 @@
+/* Fuentes Generales */
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap");
+
+.section_item_selected {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  z-index: 2;
+}
+
+.section_item_selected > div {
+  width: 60%;
+  z-index: 2;
+}
+
+.section_item_selected > div:nth-child(1) {
+  display: flex;
+  flex-flow: row wrap;
+}
+.container_item_global {
+  background-color: #d3d3d3;
+  padding: 30px 15px 30px 15px;
+  border-radius: 15px;
+}
+
+.container_item_global > div {
+  flex-basis: calc(100% / 2);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.div_container_corousel {
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.box_info_item > article {
+  margin-left: 15px;
+}
+
+.box_info_item > article:nth-child(1) {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #757575;
+}
+.box_info_item > article:nth-child(2) h3 {
+  font-size: 25px;
+  font-family: "Readex Pro", sans-serif;
+}
+.box_info_item > article:nth-child(3) {
+  font-size: 28px;
+  margin-top: 5px;
+}
+.box_info_item > article:nth-child(4) {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.box_info_item > article:nth-child(5) {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.box_info_item > article:nth-child(6) {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.box_info_item > article:nth-child(7) {
+  font-size: 15px;
+  margin-top: 5px;
+}
+.box_info_item > article:nth-child(8) {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.box_info_item > article:nth-child(9) {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.container_items_options {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.container_items_options > h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container_items_options > .container_items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* Animación de itemPage */
+
+.container_animation {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.container_animation > div {
+  display: flex;
+  flex-flow: row;
+}
+
+.container_animation > div > div {
+  height: 100vh;
+  flex-basis: calc(100% / 4);
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.img_animation_item_page {
+  width: 50px;
+  animation: animation_img 18s linear infinite;
+}
+
+@keyframes animation_img {
+  to {
+    transform: translateY(-100vh) rotateZ(360deg);
+  }
+  from {
+    transform: translateY(10vh);
+  }
+}

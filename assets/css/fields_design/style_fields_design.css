@@ -1,0 +1,243 @@
+/* Login fields Design */
+.txt_login_user,
+.txt_login_password {
+  width: 60%;
+  padding: 12px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 10px;
+}
+
+.button_login,
+.btn_register {
+  padding: 10px;
+  margin: 5px;
+  width: 25%;
+  background-color: #2b454e;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px #000000;
+  transition: all 300ms;
+  color: #ffffff;
+}
+
+.btn_register {
+  width: 40%;
+}
+
+.button_login:hover,
+.btn_register:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 5px #000000, 4px 4px 5px #000000;
+  transition: all 300ms;
+}
+
+/* Register Fields */
+
+.txt_register_name,
+.txt_register_lastname,
+.txt_register_mail,
+.txt_register_password,
+.txt_register_passwordconfirm,
+.txt_register_date {
+  width: 75%;
+  padding: 12px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px solid #000000;
+}
+
+.txt_register_date {
+  text-align: center;
+}
+
+.combox_mail,
+.combox_date {
+  padding: 12px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px solid #000000;
+}
+
+/* Page-home */
+
+.input_search_item_home {
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px 10px 5px 5px;
+  font-size: 16px;
+}
+.btn_search_item {
+  padding: 5px;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.btn_search_item:hover > i {
+  color: #03dfbf;
+}
+
+.button_home_ver_product {
+  width: 70%;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  background-color: #000000;
+  color: #c5c5c5;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: all 400ms;
+}
+.button_home_ver_product:hover {
+  width: 65%;
+  border-radius: 10px;
+  background-color: #272727;
+  transition: all 400ms;
+}
+
+/* Components Slider Home */
+
+.btn_slider_catalogo,
+.btn_slider_oferta {
+  border: 2px solid #000000;
+  background-color: #d1d1d198;
+  padding: 15px 40px 15px 40px;
+  font-size: 18px;
+  margin: 10px;
+  color: #000000;
+  font-weight: bold;
+  transition: all 400ms;
+}
+
+.btn_slider_catalogo:hover,
+.btn_slider_oferta:hover {
+  border-radius: 10px;
+  background-color: #d1d1d1e7;
+  transition: all 400ms;
+}
+
+/* Item selected page */
+
+.btn_item_selected {
+  padding: 14px 100px 14px 100px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #000000;
+  transition: all 400ms;
+}
+
+.btn_item_selected:hover {
+  background-color: #141414dc;
+  transition: all 400ms;
+}
+
+/* Page Admin Panel */
+.logout_button {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: end;
+  color: #ff3939;
+  text-decoration: none;
+  font-size: 18px;
+}
+.logout_button:hover {
+  background-color: #222222;
+  color: #ff3939;
+  text-decoration: none;
+}
+
+.inpt_admin_newitem,
+.combox_status,
+.combox_category,
+.combox_subcategory {
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #d3d3d35d;
+  outline: #4d4d4d;
+  font-size: 16px;
+  border: 1px solid#1a1a1a;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn_register_adminpanel,
+.btn_edit_adminpanel {
+  margin: 20px 10px 10px 0px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #000000;
+  color: #c5c5c5;
+  width: 20%;
+  border-radius: 10px;
+  transition: all 500ms;
+}
+.btn_register_adminpanel:hover,
+.btn_edit_adminpanel:hover {
+  color: #000000;
+  background-color: #c5c5c5;
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+.td_container_butons {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.button_lis_edit,
+.button_lis_delete {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.button_lis_edit:hover,
+.button_lis_delete:hover {
+  box-shadow: 1px 1px 5px #000000;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 100ms;
+}
+
+.button_lis_edit {
+  background-color: #3c39ff;
+  color: #e4e4e4;
+  transition: all 100ms;
+}
+
+.button_lis_delete {
+  background-color: #ff3939;
+  color: #e4e4e4;
+  transition: all 100ms;
+}
+
+/* Modal Button */
+.button {
+  padding: 10px;
+  border: 1px solid #000000;
+  width: 20%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #000a61;
+  color: #ffffff;
+  font-weight: bold;
+  transition: all 400ms;
+}
+.button:hover {
+  background-color: #0014c5;
+  cursor: pointer;
+  transition: all 400ms;
+}

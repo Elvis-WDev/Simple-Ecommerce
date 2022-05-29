@@ -1,0 +1,36 @@
+
+
+.section_nosotros{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+.text_intro_nosotros_page{
+    text-align: justify;
+    margin-top: 30px;
+    font-family: 'B612', sans-serif;
+}
+
+.section_nosotros > div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    width: 50%;
+}
+
+.img_nosotros{
+    display: flex;
+    justify-content: center;
+
+}
+
+.img_nosotros img{
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    background-repeat: no-repeat;
+}

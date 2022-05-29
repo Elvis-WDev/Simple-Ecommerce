@@ -1,0 +1,526 @@
+/*------------------------------------------ Adaptable para desktop------------------------------------------*/
+@media screen and (min-width: 1920px) and (max-width: 8000px) {
+  .container,
+  .container_2 {
+    height: 100vh;
+  }
+  .container_login,
+  .container_register {
+    height: 65vh;
+  }
+  .container > .container_login > div > form {
+    height: 100%;
+  }
+  .container_2 > .container_register > div > form {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 1141px) and (max-width: 1515px) {
+  .container_register {
+    margin: 0px;
+  }
+  .container_register > div {
+    margin: 0px;
+    width: 100%;
+    flex-basis: calc((100% / 2));
+  }
+}
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+/* /* ****************************************Nuevo query*************************************************** */
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+@media screen and (min-width: 851px) and (max-width: 1140px) {
+  .container_login {
+    margin: 10px;
+  }
+
+  .container > .container_login > div {
+    margin: 0px;
+    width: 100%;
+    /* min-height: 100%; */
+    flex-basis: calc(100% / 2);
+  }
+
+  .container_register {
+    margin: 10px;
+  }
+
+  .container_register > div {
+    margin: 0px;
+    width: 100%;
+    flex-basis: calc(100% / 2);
+  }
+
+  .container_register > div > form > div {
+    margin: 0px;
+  }
+
+  .container_register > div > form > div > div {
+    margin-bottom: 10px;
+    flex-basis: calc((100% / 1) - 5px);
+  }
+}
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+/* /* ****************************************Nuevo query*************************************************** */
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+@media screen and (min-width: 602px) and (max-width: 850px) {
+  .container_login {
+    margin: 10px;
+  }
+
+  .container > .container_login > div {
+    margin: 0px;
+    width: 100%;
+    /* min-height: 100%; */
+    flex-basis: calc(100% / 2);
+  }
+
+  .container_register {
+    margin: 10px;
+  }
+
+  .container_register > div {
+    margin: 0px;
+    width: 100%;
+    flex-basis: calc(100% / 2);
+  }
+
+  .container_register > div > form > div {
+    margin: 0px;
+  }
+
+  .container_register > div > form > div > div {
+    margin-bottom: 10px;
+    flex-basis: calc((100% / 1) - 5px);
+  }
+
+  .txt_login_user,
+  .txt_login_password {
+    width: 100%;
+  }
+  .button_login {
+    width: 40%;
+  }
+
+  .tittle_login > h1 {
+    font-size: 35px;
+  }
+}
+
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+/* /* ****************************************Nuevo query*************************************************** */
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+@media screen and (min-width: 586px) and (max-width: 601px) {
+  .container_login {
+    margin: 10px;
+  }
+
+  .container > .container_login > div {
+    margin: 0px;
+    width: 100%;
+    /* min-height: 100%; */
+    flex-basis: calc(100% / 1);
+  }
+
+  .container_register {
+    margin: 10px;
+  }
+
+  .container_register > div {
+    margin: 0px;
+    width: 100%;
+    flex-basis: calc((100% / 1) - 10px);
+  }
+
+  .container_register > .img_register {
+    height: 45vh;
+  }
+
+  .img_login {
+    height: 35vh;
+  }
+
+  .container_register > div > form > div {
+    margin: 0px;
+  }
+
+  .container_register > div > form > div > div {
+    margin-bottom: 10px;
+    flex-basis: calc((100% / 1) - 5px);
+  }
+  .container_register > div > form > div:nth-child(3) > div {
+    flex-basis: calc((100% / 2) - 10px);
+  }
+
+  .txt_login_user,
+  .txt_login_password {
+    width: 100%;
+  }
+  .button_login {
+    width: 40%;
+  }
+
+  .tittle_login > h1 {
+    font-size: 35px;
+  }
+
+  .txt_register_name,
+  .txt_register_lastname,
+  .txt_register_password,
+  .txt_register_passwordconfirm,
+  .txt_register_date {
+    width: 85%;
+  }
+  .txt_register_mail {
+    width: 60%;
+  }
+}
+
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+/* /* ****************************************Nuevo query*************************************************** */
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+@media screen and (min-width: 400px) and (max-width: 585px) {
+  .container_login {
+    margin: 10px;
+  }
+
+  .container > .container_login > div {
+    margin: 0px;
+    width: 100%;
+    /* min-height: 100%; */
+    flex-basis: calc(100% / 1);
+  }
+
+  .container_register {
+    margin: 10px;
+  }
+
+  .container_register > div {
+    margin: 0px;
+    width: 100%;
+    flex-basis: calc((100% / 1) - 10px);
+  }
+
+  .container_register > .img_register {
+    height: 45vh;
+  }
+
+  .img_login {
+    height: 35vh;
+  }
+
+  .container_register > div > form > div {
+    margin: 0px;
+  }
+
+  .container_register > div > form > div > div {
+    margin-bottom: 10px;
+    flex-basis: calc((100% / 1) - 5px);
+  }
+  .container_register > div > form > div:nth-child(3) > div {
+    flex-basis: calc((100% / 2) - 10px);
+  }
+
+  .txt_login_user,
+  .txt_login_password {
+    width: 100%;
+  }
+  .button_login {
+    width: 40%;
+  }
+
+  .tittle_login > h1 {
+    font-size: 35px;
+  }
+
+  .txt_register_name,
+  .txt_register_lastname,
+  .txt_register_password,
+  .txt_register_passwordconfirm,
+  .txt_register_date {
+    width: 80%;
+  }
+  .txt_register_mail {
+    width: 60%;
+  }
+  .arroba_icon {
+    display: none;
+  }
+}
+
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+/* /* ****************************************Nuevo query*************************************************** */
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+@media screen and (min-width: 330px) and (max-width: 399px) {
+  .container_login {
+    margin: 10px;
+  }
+
+  .container > .container_login > div {
+    margin: 0px;
+    width: 100%;
+    /* min-height: 100%; */
+    flex-basis: calc(100% / 1);
+  }
+
+  .container_register {
+    margin: 10px;
+  }
+
+  .container_register > div {
+    margin: 0px;
+    width: 100%;
+    flex-basis: calc((100% / 1) - 10px);
+  }
+
+  .container_register > .img_register {
+    height: 45vh;
+  }
+
+  .img_login {
+    height: 35vh;
+  }
+
+  .container_register > div > form > div {
+    margin: 0px;
+  }
+
+  .container_register > div > form > div > div {
+    margin-bottom: 10px;
+    flex-basis: calc((100% / 1) - 5px);
+  }
+
+  .container_register > div > form > div:nth-child(3) > div {
+    flex-basis: calc((100% / 2) - 10px);
+  }
+
+  .txt_login_user,
+  .txt_login_password {
+    width: 100%;
+  }
+  .button_login {
+    width: 40%;
+  }
+
+  .tittle_login > h1 {
+    font-size: 35px;
+  }
+
+  .txt_register_name,
+  .txt_register_lastname,
+  .txt_register_password,
+  .txt_register_passwordconfirm,
+  .txt_register_date {
+    width: 80%;
+    font-size: 16px;
+  }
+  .txt_register_mail {
+    width: 60%;
+    font-size: 16px;
+  }
+  .arroba_icon {
+    display: none;
+  }
+
+  .container_register > div > form > div > div > i {
+    font-size: 18px;
+  }
+
+  .combox_mail,
+  .combox_date {
+    padding: 13px 0px 13px 0px;
+  }
+}
+
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+/* /* ****************************************Nuevo query*************************************************** */
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+@media screen and (min-width: 320px) and (max-width: 329px) {
+  .container_login {
+    margin: 10px;
+  }
+
+  .container > .container_login > div {
+    margin: 0px;
+    width: 100%;
+    /* min-height: 100%; */
+    flex-basis: calc(100% / 1);
+  }
+
+  .container_register {
+    margin: 10px;
+  }
+
+  .container_register > div {
+    margin: 0px;
+    width: 100%;
+    flex-basis: calc((100% / 1) - 10px);
+  }
+
+  .container_register > .img_register {
+    height: 45vh;
+  }
+
+  .img_login {
+    height: 35vh;
+  }
+
+  .container_register > div > form > div {
+    margin: 0px;
+  }
+
+  .container_register > div > form > div > div {
+    margin-bottom: 10px;
+    flex-basis: calc((100% / 1) - 5px);
+  }
+
+  .container_register > div > form > div:nth-child(3) > div {
+    flex-basis: calc((100% / 1) - 10px);
+  }
+
+  .txt_login_user,
+  .txt_login_password {
+    width: 100%;
+  }
+  .button_login {
+    width: 40%;
+  }
+
+  .tittle_login > h1 {
+    font-size: 35px;
+  }
+
+  .txt_login_user,
+  .txt_login_password {
+    width: 100%;
+  }
+
+  .txt_register_name,
+  .txt_register_lastname,
+  .txt_register_password,
+  .txt_register_passwordconfirm,
+  .txt_register_date {
+    width: 80%;
+    font-size: 16px;
+  }
+  .txt_register_mail {
+    width: 80%;
+    font-size: 16px;
+  }
+  .arroba_icon {
+    display: contents;
+  }
+
+  .container_register > div > form > div > div > i {
+    font-size: 18px;
+  }
+
+  .combox_mail,
+  .combox_date {
+    padding: 13px 0px 13px 0px;
+  }
+}
+
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+/* /* ****************************************Nuevo query*************************************************** */
+/* ********************************************************************************************************* */
+/* ********************************************************************************************************* */
+@media screen and (min-width: 0px) and (max-width: 319px) {
+  .container_login {
+    margin: 10px;
+  }
+
+  .container > .container_login > div {
+    margin: 0px;
+    width: 100%;
+    /* min-height: 100%; */
+    flex-basis: calc(100% / 1);
+  }
+
+  .container_register {
+    margin: 10px;
+  }
+
+  .container_register > div {
+    margin: 0px;
+    width: 100%;
+    flex-basis: calc((100% / 1) - 10px);
+  }
+
+  .container_register > .img_register {
+    height: 45vh;
+  }
+
+  .img_login {
+    height: 35vh;
+  }
+
+  .container_register > div > form > div {
+    margin: 0px;
+  }
+
+  .container_register > div > form > div > div {
+    margin-bottom: 10px;
+    flex-basis: calc((100% / 1) - 5px);
+  }
+
+  .container_register > div > form > div:nth-child(3) > div {
+    flex-basis: calc((100% / 1) - 10px);
+  }
+
+  .txt_login_user,
+  .txt_login_password {
+    width: 100%;
+  }
+  .button_login,
+  .btn_register {
+    width: 80%;
+  }
+
+  .tittle_login > h1 {
+    font-size: 35px;
+  }
+
+  .txt_login_user,
+  .txt_login_password {
+    width: 100%;
+  }
+
+  .txt_register_name,
+  .txt_register_lastname,
+  .txt_register_password,
+  .txt_register_passwordconfirm,
+  .txt_register_date {
+    width: 60%;
+    font-size: 16px;
+  }
+  .txt_register_mail {
+    width: 60%;
+    font-size: 16px;
+  }
+  .arroba_icon {
+    display: contents;
+  }
+
+  .container_register > div > form > div > div > i {
+    font-size: 18px;
+  }
+
+  .combox_mail,
+  .combox_date {
+    padding: 13px 0px 13px 0px;
+  }
+}

@@ -1,0 +1,32 @@
+
+
+
+.animation_up{
+    animation: animation_up 1s normal;
+}
+
+@keyframes animation_up {
+    from{
+        transform: translatey(-150px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.animation_down{
+    animation: animation_down 1s normal;
+}
+
+@keyframes animation_down {
+    from{
+        transform: translatey(150px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
